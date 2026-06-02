@@ -1,0 +1,6 @@
+asset_symbol,coingecko_id,quantity,avg_buy_price_usd
+BTC,bitcoin,0.25,42000
+ETH,ethereum,2.5,2400
+SOL,solana,40,95
+LINK,chainlink,100,14
+USDT,tether,1000,1
