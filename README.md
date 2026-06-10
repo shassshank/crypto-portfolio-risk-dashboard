@@ -1,5 +1,5 @@
 # Crypto Portfolio Risk Dashboard
-
+![Overview dashboard](./assets/Overview.png) 
 A production-style Python and Streamlit dashboard for crypto portfolio valuation, performance analytics, risk metrics, and stress testing using free/public CoinGecko market data.
 
 This project demonstrates practical Python backend/data engineering skills: API integration, local caching, validation, risk analytics, clean module separation, deterministic testing, Docker support, and a usable dashboard experience.
@@ -367,10 +367,10 @@ Outputs:
 - Historical data availability can vary by asset.
 - API failures are handled with retries and fallback demo data.
 - Prices are market-data estimates and may not match exchange execution prices.
-- The app does not connect to exchanges, wallets, private keys, or trading accounts.
+- The app does not connect to exchanges, wallets, private keys, or trading accounts (but can be implemented).
 - No live trading or order execution is implemented.
 
-## Production Notes
+## Note
 
 This is a production-style portfolio project, not a regulated production risk platform. For real production use, additional work would be required:
 
@@ -386,15 +386,3 @@ This is a production-style portfolio project, not a regulated production risk pl
 ## Disclaimer
 
 This project uses free/public crypto market data for demonstration purposes. It is not financial advice, does not execute trades, and should not be used for live trading or institutional risk decisions.
-
-## Future Improvements
-
-- Add downloadable CSV reports
-- Add portfolio import presets
-- Add more stress-test templates
-- Add rolling volatility and rolling drawdown charts
-- Add correlation analysis
-- Add asset-level historical performance views
-- Add SQLite-backed cache option
-- Add CI workflow for tests and linting
-- Add Streamlit Community Cloud deployment notes
